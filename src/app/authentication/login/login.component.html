@@ -1,0 +1,31 @@
+<div class="form-signin center">
+    <div class="p-fluid">
+        <div class="p-field p-col-12 p-mb-5 center">
+            <img [src]="logo" alt="" width="34%">
+        </div>
+        <div class="p-white p-col-12 center p-mb-3">
+            <label>Login em ControlMoney</label>
+        </div>
+        <div class="p-field p-col-12 p-mb-2">
+            <span class="p-float-label">
+                <input id="ususairo" type="text" pInputText>
+                <label for="ususairo">Usuario</label>
+            </span>
+        </div>
+        <div class="p-field p-col-12 p-mb-2">
+            <span class="p-float-label">
+                <input id="password" type="password" pInputText>
+                <label for="password">Senha</label>
+            </span>
+        </div>
+        <div class="p-field p-col-12 p-mb-2">
+            <button pButton type="button" label="Login" (click)="logar()"></button>
+        </div>
+        <div class="p-field p-col-12 p-mb-2">
+            <button pButton type="button" class="p-button-success" label="Registre-se aqui!" [routerLink]="['/authentication/register']"></button>
+        </div>
+        <div class="p-field p-col-12 p-mb-2">
+            <p-button label="Recupere sua senha!" styleClass="p-button-link" [routerLink]="['/authentication/forgot']"></p-button>
+        </div>
+    </div>
+</div>

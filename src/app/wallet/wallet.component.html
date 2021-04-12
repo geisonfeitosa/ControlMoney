@@ -1,0 +1,18 @@
+<div class="center">
+    <div class="card">
+        <p-card id="card-content">
+            <div class="progress-bar">
+                <p-progressBar *ngIf="loading" mode="indeterminate" [style]="{'height': '6px'}"></p-progressBar>
+            </div>
+            <app-menu></app-menu>
+            <router-outlet></router-outlet>
+        </p-card>
+    </div>
+
+    <footer class="main-footer center">
+        <strong>
+            Copyright &copy; {{currentDate | date: 'yyyy'}}
+            <a href="#">Control Money</a>.
+        </strong> Todos os direitos reservados.
+    </footer>
+</div>
