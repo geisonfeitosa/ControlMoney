@@ -3,6 +3,8 @@
 <p align="center">
   <a href="#">
     <img width="950" src="./src/assets/images/print.png">
+	<img width="420" src="./src/assets/images/print.png">&nbsp;
+	<img width="420" src="./src/assets/images/print.png">
   </a>
 </p>
 
