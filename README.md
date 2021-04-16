@@ -12,7 +12,9 @@
 
 Este projeto é uma aplicação Angular, PrimeNG e Progressive Web App (PWA).
 O objetivo desta aplicação é ser uma ferramenta de auxilio no controle financeiro pessoal de cada usuário.
-Através de telas intuitivas e a possibilidade de instala-lo diretamente no computador como uma aplicativo.
+Através de telas intuitivas e a possibilidade de instala-lo diretamente no computador como um aplicativo.
+
+Aplicação em desenvolvimento...
 
 ## Tecnologias
 
